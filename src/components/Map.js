@@ -25,8 +25,7 @@ function Map({ latitude, longitude }) {
   } else if (latitude === null || longitude === null) {
     return (
       <div className="text-danger text-center border  border-danger">
-        {" "}
-        <h3>Latitude and Longitude are unavailable</h3>{" "}
+        <h3>Latitude and Longitude are unavailable</h3>
       </div>
     );
   }
